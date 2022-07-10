@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
 padding: ${p => `${p.theme.space[1]}px`} 0;
-margin-rigth: ${p => `${p.theme.space[3]}px`} ;
+margin-right: ${p => `${p.theme.space[3]}px`} ;
 :last-child {
     margin-right: 0;
 }
@@ -16,7 +16,7 @@ font-size: ${p => p.theme.fontSizes.m};
   }
   width: 80px;
   height: 30px;
-  border-radius: ${p => p.theme.radii.large};
+  border-radius: ${p => p.theme.radii.normal};
   cursor: pointer;
   ::first-letter {
     text-transform: capitalize;
