@@ -21,4 +21,7 @@ font-size: ${p => p.theme.fontSizes.m};
   ::first-letter {
     text-transform: capitalize;
   }
+
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 `
